@@ -160,6 +160,8 @@ const onMoreBtnClick = (event) => {
             removeBlur();
             reportModal.remove();
             picture.remove();
+            body.style.height = 'auto';
+            body.style.overflow = 'auto';
         }
     }
 }
