@@ -1,0 +1,41 @@
+.create-board-modal {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 35%;
+    left: 32%;
+    padding: 20px;
+    overflow: auto;
+    z-index: 4;
+    background-color: #fff;
+    width: 36%;
+    
+    border-radius: 30px;
+
+    #newBoardName {
+        border: none;
+        outline: none;
+        background-color: #EFEFEF;
+        font-size: 16px;
+        line-height: 20px;
+        color: #111;
+        padding: 10px 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    button {
+        cursor: pointer;
+        align-self: center;
+        background-color: #E60023;
+        color: #fff;
+        width: 30%;
+        border: none;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+    
+}

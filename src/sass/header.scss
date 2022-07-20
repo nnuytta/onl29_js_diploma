@@ -1,0 +1,75 @@
+.header {
+    padding: 15px 30px;
+
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-logo {
+        height: 30px;
+        display: flex;
+    }
+
+    &-main {
+        height: 100%;
+
+        &-btn {
+            cursor: pointer;
+            background-color: #111;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            padding: 15px;
+
+            &:hover {
+                background-color: #E60023;
+                color: #fff;
+            }
+        }
+    }
+
+    &-search {
+        width: 70%;
+
+        &-input {
+            outline: 0;
+            font-size: 16px;
+            color: #333;
+            padding: 16px;
+            width: 100%;
+            border: 4px solid white;
+            background: #efefef; 
+            border-radius: 100px; 
+
+            &:focus {
+                border: 4px solid #7FC1FF;
+            }
+        }
+    }
+
+    &-board-change {
+
+        select {
+            outline: 0;
+            color: #111;
+            font-size: 16px;
+            border: none;
+        }
+
+        option {
+            border: none;
+        }
+        
+    }
+
+    &-add-board-btn {
+        cursor: pointer;
+        border: none;
+        background-color: #fff;
+        color: #111;
+        font-size: 16px;
+    }
+}
